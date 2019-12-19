@@ -5,7 +5,7 @@ Add field to Page layout.
 
 Add field to Compact Layout to use Hyperlink field instead of action button.
 
-Add field to Column of any List View you want to work.
+Add field to Column of any List View you want to show.
 
 Now you can Print PDF from Record Page Detail and List View.
 
