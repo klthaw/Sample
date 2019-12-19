@@ -1,0 +1,7 @@
+public class PrintPDFController {
+    public Opportunity opp{get;set;}
+    public PrintPDFController(){
+        Id oppId = apexpages.currentpage().getparameters().get('id');
+        opp = [select id,Name from opportunity where id=: oppId];
+    }
+}
